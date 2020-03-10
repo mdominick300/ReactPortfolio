@@ -1,0 +1,329 @@
+.topdiv {
+  background: rgb(25, 107, 155);
+}
+/* collapsable button on the right */
+.nav-item {
+  text-align: right;
+}
+/* navbar css */
+.white {
+  color: white;
+}
+/* Links */
+a {
+  text-decoration: none;
+  color: #777777;
+}
+/* navbar css */
+.navbar-light,
+.navbar-brand {
+  background-color: #4aaaa5;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  margin-left: -15px;
+}
+
+.navbar-toggler {
+  background: #4aaaa5;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.top {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: -15px;
+  float: left;
+  background: #4aaaa5;
+  color: white;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  width: 100%;
+}
+
+/* inside header */
+h2 {
+  color: #4aaaa5;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 36px;
+}
+
+.name {
+  float: left;
+  background: #4aaaa5;
+}
+/* background */
+body {
+  color: #777777;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: url("./criss-cross.png");
+  overflow: auto;
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* middle box  */
+.whitebox {
+  position: relative;
+  background: white;
+  float: left;
+  clear: both;
+  padding: 40px;
+  height: auto;
+  margin: 40px 0 100px 0;
+  border-color: #777777;
+  width: 100%;
+}
+
+
+.footer {
+  width: 100%;
+  border-top: 8px solid rgb(25, 107, 155);
+  background: #666666;
+  text-align: center;
+  flex-shrink: 0;
+  padding-top: 30px;
+  color: white;
+  font-size: 50%;
+  /* clear: both; */
+
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+/* picture sizing */
+.pic {
+  margin-bottom: 20px;
+  float: left;
+  height: 200px auto;
+  width: 240px auto;
+}
+/* hold sizing */
+.topdiv {
+  width: 960px;
+}
+
+/* line css */
+.line {
+  border-bottom: solid 1px;
+  padding: 0 0 20px 0;
+}
+
+/* input box */
+.input1{
+  width: 100%;
+  padding: 12px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+/* large input box */
+.input2[type="text"] {
+  width: 100%;
+  padding: 10px 10px 160px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.button {
+  background: #4aaaa5;
+  padding: 10px;
+  margin-right: 800px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+.picture {
+  /* background: url("./Screen\ Shot\ 2019-12-10\ at\ 11.00.05\ PM.png"); */
+  /* width: 100%; */
+  border: solid 1px;
+  background-size: cover;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  /* height: 230px auto;
+    width: 270px auto; */
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+
+/* green inside box */
+.insidebox {
+  width: 100%;
+  background: rgb(25, 107, 155);
+  text-align: center;
+  color: white;
+  font-size: 150%;
+  position: relative;
+  /* margin-bottom: 30px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.break {
+  margin: 20px;
+}
+
+.indent {
+  margin-left: 40px;
+}
+
+#github {
+  margin-top: 20px;
+  background: url("./assets/GitHub_Logo\ copy.png");
+  padding: 20px 80px 20px 80px;
+  background-position: center;
+  background-size: cover;
+}
+
+#linkedin {
+  margin-top: 20px;
+  background: url("./assets/LI-Logo\ copy.png");
+  padding: 20px 80px 20px 80px;
+  background-position: center;
+  background-size: cover;
+}
+
+#github2 {
+  background: url("./assets/GitHub_Logo\ copy.png");
+  padding: 10px 25px 10px 25px;
+  background-position: center;
+  background-size: cover;
+}
+#github2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picture:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#github:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#linkedin:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.resume {
+  font-size: 12px;
+  margin-top: 30px;
+  line-height: 50%;
+}
+
+#print{
+    padding: 10px 40px 10px 40px;
+    background: rgb(53, 56, 58);
+    color: white;
+}
+
+#print:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slideInfo{
+  color:black;
+  padding:1px;
+  /* background: rgb(25, 107, 155); */
+  /* border-radius: 8px; */
+  text-align:center;
+  /* left:15%; */
+  /* right: 15%; */
+  /* top:0;
+  bottom: 0; */
+}
+.w-100 {
+  height: 500px;
+  margin-bottom: 100px;
+}
+.d-block{
+  height: 400px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+}
+.carousel-inner{
+  margin-top: 50px;
+}
+.d-block:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.d-none {
+  display: block!important;
+}
+
+#landingBackground{
+  background:rgb(25, 107, 155);
+}
+#landingTitle{
+  text-align: center;
+  font-size: 80px;
+  margin-top: 300px;
+  
+}
+.landingButton{
+  background: blue;
+  font-size: 30px;
+  width: 25%;
+  padding: 10px;
+  color:white;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+#landingLink{
+  text-decoration: none;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
