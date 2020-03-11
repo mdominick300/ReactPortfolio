@@ -23,16 +23,21 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: -20px;
-  margin-bottom: -10px;
+  margin-bottom: -20px;
   margin-left: -15px;
+  color:white!important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white!important;
 }
 
 .navbar-toggler {
-  background: #4aaaa5;
+  background-color: #4aaaa5;
 }
 
 .bg-light {
-  background-color: white;
+  background-color: rgb(25, 107, 155)!important;
+  color:white!important;
 }
 
 .top {
