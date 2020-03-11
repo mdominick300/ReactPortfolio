@@ -39,6 +39,14 @@ function Navbar() {
               Contact
             </Link>
           </li>
+          <li className="nav-item">
+            <Link
+              to="/resume"
+              className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
+            >
+              Resume
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
