@@ -42,9 +42,9 @@ function About() {
                         <br/>
                         <p>I currently have a full time job. My second job is an aspiring web developer learning the ins
                             and outs of coding. The things I enjoy the most about coding include: the building aspect,
-                            the "Aha moments", and cool and interesting things javascript can accomplish. During the
+                            as well as the cool and interesting things javascript can accomplish. During the
                             boot camp process I have learned about: HTML, CSS, Javascript, Node, Jquery, mySQL,
-                            sequelize, handlebars, and express .</p>
+                            sequelize, handlebars, React, mongoDB, and Express .</p>
                         <br/><br/>
                         <p>
                             Outside of className I enjoy watching sports, hanging out with friends and playing with my dog
