@@ -2,7 +2,7 @@
 
 Portfolio for displaying my web development accomplishments. Includes: github link, linkedIn link, links to projects, resume, bio and contact information.
  
- https://mdominick300.github.io/ResponsivePortfolio/index.html
+ https://immense-badlands-77355.herokuapp.com/
 
  # Code
 -HTML
