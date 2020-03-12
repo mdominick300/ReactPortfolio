@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Matthew Dominick 2020</span>
+      <span>Copyright © 2020 Matthew Dominick</span>
     </footer>
   );
 }
