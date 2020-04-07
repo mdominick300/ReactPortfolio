@@ -29,7 +29,7 @@ function Resume() {
 
                         <h3>Summary</h3>
                         <br/>
-                        <p className="indent">Aspiring full stack web developer prepared to help a development team reach
+                        <p className="indent">Full Stack Web Developer prepared to help a development team reach
                             their goals
                         </p>
                     </div>
