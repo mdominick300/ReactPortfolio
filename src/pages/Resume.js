@@ -7,23 +7,19 @@ function resumeClick() {
 
 function Resume() {
     return (
-    <div className="row">
+        <div className="row">
 
             <div className="col-md-2">
             </div>
 
             <div className=" col-md-8">
-                <br/>
-                
-                
-                    <Download />
-                    
+                <br />
+                <Download />
                 <div className="whitebox">
-                   
                 </div>
             </div>
         </div>
-        )
+    )
 }
 
 export default Resume;
