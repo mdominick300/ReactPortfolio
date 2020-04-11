@@ -31,14 +31,14 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               to="/resume"
               className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
             >
               Resume
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link
               to="/contact"

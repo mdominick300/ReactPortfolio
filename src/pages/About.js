@@ -1,7 +1,11 @@
 import React from "react";
+import Download from "../components/PDF";
 // import Footer from "../components/Footer";
 // import Navbar from "../components/Navbar";
-var photo = require('../assets/FullSizeRender.jpg')
+
+
+var photo = require('../assets/FullSizeRender.jpg');
+
 
 function gitClick(){
   window.open('https://github.com/mdominick300')
@@ -34,13 +38,12 @@ function About() {
                         <img className="pic col-md-4 img-responsive" id="bio-image" src={photo}
                             alt="Matthew"/>
 
-                        <p>My name is Matthew Dominick and I am an aspiring full stack web developer! Currently enrolled
-                            in a 6 month boot camp through UNCC. After completion I hope to get a job in a related
-                            field.
+                        <p>My name is Matthew Dominick and I am a full stack web developer! Recently completed a 6 month full stack web development bootcamp through UNCC. 
+                        
                         </p>
                         <br/>
                         <br/>
-                        <p>I currently have a full time job. My second job is an aspiring web developer learning the ins
+                        <p>I currently spend hours and hours learning the ins
                             and outs of coding. The things I enjoy the most about coding include: the building aspect,
                             as well as the cool and interesting things javascript can accomplish. During the
                             boot camp process I have learned about: HTML, CSS, Javascript, Node, Jquery, mySQL,
@@ -53,7 +56,7 @@ function About() {
                             few hours on a beautiful day.
                         </p>
                         <div className="row">
-                            <div className="col-md-2"></div>
+                            {/* <div className="col-md-2"></div> */}
                             <div className="col-md-4 text-center">
                                 <button className="btn" id="github"
                                     onClick={gitClick}></button>
@@ -62,7 +65,10 @@ function About() {
                                 <button className="btn" id="linkedin"
                                     onClick={linkClick}></button>
                             </div>
-                            <div className="col-md-2"></div>
+                            <div className="col-md-4 text-center">
+                            <Download />
+                            </div>
+                            {/* <div className="col-md-2"></div> */}
                         </div>
 
                     </div>
