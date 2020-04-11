@@ -1,9 +1,6 @@
 import React from "react";
 import Download from "../components/PDF"
 
-function resumeClick() {
-    window.open('../assets/Resume.pdf')
-}
 
 function Resume() {
     return (
