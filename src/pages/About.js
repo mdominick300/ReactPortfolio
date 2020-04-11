@@ -1,7 +1,5 @@
 import React from "react";
 import Download from "../components/PDF";
-// import Footer from "../components/Footer";
-// import Navbar from "../components/Navbar";
 
 
 var photo = require('../assets/FullSizeRender.jpg');
@@ -56,19 +54,19 @@ function About() {
                             few hours on a beautiful day.
                         </p>
                         <div className="row">
-                            {/* <div className="col-md-2"></div> */}
                             <div className="col-md-4 text-center">
                                 <button className="btn" id="github"
-                                    onClick={gitClick}></button>
+                                    onClick={gitClick}>
+                                </button>
                             </div>
                             <div className="col-md-4 text-center">
                                 <button className="btn" id="linkedin"
-                                    onClick={linkClick}></button>
+                                    onClick={linkClick}>
+                                </button>
                             </div>
                             <div className="col-md-4 text-center">
                             <Download />
                             </div>
-                            {/* <div className="col-md-2"></div> */}
                         </div>
 
                     </div>
