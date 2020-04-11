@@ -11,13 +11,13 @@ Portfolio for displaying my web development accomplishments. Includes: github li
 <br>
 -Bootstrap
 <br>
--React
+-ReactJS
 <br>
 
 
 # ScreenShots
-<img src="assets/Screen Shot 2019-12-12 at 6.16.40 PM.png" width=400px>
-<img src="assets/Screen Shot 2019-12-12 at 6.16.30 PM.png" width=400px>
+<img src="src/assets/Example Photo 1.png" width=400px>
+<img src="src/assets/Example Photo 2.png" width=400px>
 
 # License
 
