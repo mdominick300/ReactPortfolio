@@ -18,6 +18,7 @@ Portfolio for displaying my web development accomplishments. Includes: github li
 # ScreenShots
 <img src="src/assets/Example Photo 1.png" width=400px>
 <img src="src/assets/Example Photo 2.png" width=400px>
+<img src="src/assets/Example Photo 3.png" width=400px>
 
 # License
 
