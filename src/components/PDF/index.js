@@ -7,7 +7,7 @@ class Download extends Component {
 
     return (
       <div className = "App">
-        <a href = {Pdf} target = "_blank"><button className="btn float-right" id="print">Download Resume</button></a>
+        <a href = {Pdf} target = "_blank"><button className="btn" id="print">Download Resume</button></a>
       </div>
     );
   }

@@ -36,7 +36,7 @@ function About() {
                         <img className="pic col-md-4 img-responsive" id="bio-image" src={photo}
                             alt="Matthew"/>
 
-                        <p>My name is Matthew Dominick and I am a full stack web developer! Recently completed a 6 month full stack web development bootcamp through UNCC. 
+                        <p>My name is Matthew Dominick and I am a full stack web developer! Recently received a certificate for Full Stack Web Development from the University of North Carolina Charlotte.
                         
                         </p>
                         <br/>
@@ -53,6 +53,7 @@ function About() {
                             activities and working out. The sport I play the most is Golf. Its a relaxing way to spend a
                             few hours on a beautiful day.
                         </p>
+                        <div className="container">
                         <div className="row">
                             <div className="col-md-4 text-center">
                                 <button className="btn" id="github"
@@ -68,7 +69,7 @@ function About() {
                             <Download />
                             </div>
                         </div>
-
+                        </div>
                     </div>
                 </div>
             </div>
