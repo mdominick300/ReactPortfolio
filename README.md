@@ -2,7 +2,7 @@
 
 Portfolio for displaying my web development accomplishments. Includes: github link, linkedIn link, links to projects, resume, bio and contact information.
  
- https://dashboard.heroku.com/apps/reactporfolio1
+ https://reactporfolio1.herokuapp.com/
 
  # Code
 -HTML
