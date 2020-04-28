@@ -48,9 +48,10 @@ function Portfolio() {
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <button><a href="https://salty-ravine-80275.herokuapp.com/" target="_blank"><img
+                            <a href="https://salty-ravine-80275.herokuapp.com/" target="_blank"><img
                                         src={nutritionPic} className="d-block w-100"
-                                        alt="..."/></a></button>
+                                        alt="..."/></a>
+                                        <br></br>
                             <div className="carousel-caption d-none d-md-block slideInfo">
                                 <h5>Nutrition Journal</h5>
                                 <p><button className="btn" id="github2"
@@ -59,9 +60,10 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <button><a href="https://radiant-reef-37891.herokuapp.com/" target="_blank"><img
+                            <a href="https://radiant-reef-37891.herokuapp.com/" target="_blank"><img
                                         src={burgerPic} className="d-block w-100"
-                                        alt="..."/></a></button>
+                                        alt="..."/></a>
+                                        <br></br>
                             <div className="carousel-caption d-none d-md-block slideInfo">
                                 <h5>Burger App</h5>
                                 <p><button className="btn" id="github2"
@@ -70,9 +72,10 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <button><a href="https://mdominick300.github.io/WeatherDashboard/" target="_blank"><img
+                            <a href="https://mdominick300.github.io/WeatherDashboard/" target="_blank"><img
                                         src={weatherPic} className="d-block w-100"
-                                        alt="..."/></a></button>
+                                        alt="..."/></a>
+                                        <br></br>
                             <div className="carousel-caption d-none d-md-block slideInfo">
                                 <h5>Weather Dashboard</h5>
                                 <p><button className="btn" id="github2"
@@ -81,9 +84,10 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <button><a href="https://mdominick300.github.io/CodeQuiz/" target="_blank"><img
+                            <a href="https://mdominick300.github.io/CodeQuiz/" target="_blank"><img
                                         src={quizPic} className="d-block w-100"
-                                        alt="..."/></a></button>
+                                        alt="..."/></a>
+                                        <br></br>
                             <div className="carousel-caption d-none d-md-block slideInfo">
                                 <h5>Coding Quiz</h5>
                                 <p><button className="btn" id="github2"
@@ -92,9 +96,10 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <button><a href="https://mdominick300.github.io/DayPlanner/" target="_blank"><img
+                            <a href="https://mdominick300.github.io/DayPlanner/" target="_blank"><img
                                         src={plannerPic} className="d-block w-100"
-                                        alt="..."/></a></button>
+                                        alt="..."/></a>
+                                        <br></br>
                             <div className="carousel-caption d-none d-md-block slideInfo">
                                 <h5>Day Planner</h5>
                                 <p><button className="btn" id="github2"
@@ -103,9 +108,10 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <button><a href="https://mdominick300.github.io/HookEvent/" target="_blank"><img
+                            <a href="https://mdominick300.github.io/HookEvent/" target="_blank"><img
                                         src={hookPic} className="d-block w-100"
-                                        alt="..."/></a></button>
+                                        alt="..."/></a>
+                                        <br></br>
                             <div className="carousel-caption d-none d-md-block slideInfo">
                                 <h5>Hook Events</h5>
                                 <p><button className="btn" id="github2"
